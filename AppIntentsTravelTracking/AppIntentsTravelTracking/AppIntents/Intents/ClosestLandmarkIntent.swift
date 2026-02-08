@@ -3,12 +3,12 @@ import SwiftUI
 
 struct ClosestLandmarkIntent: AppIntent {
     static let title: LocalizedStringResource = "Find Closest Landmark"
-
+    
     @Dependency var modelData: ModelData
-
+    
     func perform() async throws -> some ReturnsValue<LandmarkEntity> & ShowsSnippetIntent & ProvidesDialog {
         let landmark = await self.findClosestLandmark()
-
+        
         return .result(
             value: landmark,
             dialog: IntentDialog(
