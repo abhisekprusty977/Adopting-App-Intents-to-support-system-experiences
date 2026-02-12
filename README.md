@@ -9,3 +9,5 @@ With visual intelligence, circle an object in the visual intelligence camera or 
 With the Action button, trigger a custom shortcut or the App Shortcut.
 From Siri suggestions, use custom shortcuts or the App Shortcut.
 In the app, view information about a landmark, then ask Siri something like “What’s a summary of the history of this place?” or similar to receive a content summary, and more.
+
+<img width="8192" height="680" alt="Landmarks App Intents-2026-02-12-134923" src="https://github.com/user-attachments/assets/9a3647d7-02b0-44a1-8012-cf9d350303ff" />
